@@ -10,12 +10,5 @@ namespace GradeBook.GradeBooks
         {
             Type = Enums.GradeBookType.Standard;
         }
-    }
-    public class RankedGradeBook : BaseGradeBook
-    {
-        public RankedGradeBook(string name) : base(name)
-        {
-            Type = Enums.GradeBookType.Ranked;
-        }
-    }
+    }   
 }
